@@ -35,6 +35,7 @@ public class ServerTesting {
         
             while(true)
             {
+                System.out.println("Cliente conectado");
                 socketCliente = servidor.accept();
                 in = new DataInputStream(socketCliente.getInputStream());
                 out = new DataOutputStream(socketCliente.getOutputStream());
