@@ -17,6 +17,7 @@ import java.net.Socket;
  *
  * @author Sebastian Diaz
  */
+
 public class ServerTesting {
     
     public static void main(String [] args) throws IOException
@@ -54,7 +55,7 @@ public class ServerTesting {
                 }
             }
         }catch (IOException ex) {
-            java.util.logging.Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
+            //Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
         }
                 
     }
